@@ -23,5 +23,18 @@
         <?php echo anchor('admin/users', '<span data-feather="file-text"></span> Users', ['class'=>'nav-link']); ?>
         </li>
     </ul>
+
+    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+        <span>Mutasi Barang</span>
+        <a class="link-secondary" href="#" aria-label="Add a new report">
+        <span data-feather="plus-circle"></span>
+        </a>
+    </h6>
+
+    <ul class="nav flex-column mb-2">
+        <li class="nav-item">
+            <?php echo anchor('admin/mutasi', '<span data-feather="file-text"></span> Mutasi Keluar', ['class'=>'nav-link']); ?>
+        </li>
+    </ul>
     </div>
 </nav>
