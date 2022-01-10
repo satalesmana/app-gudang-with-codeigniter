@@ -32,10 +32,16 @@ $routes->setAutoRoute(false);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+$routes->post('auth/ceklogin','AuthController::cekLogin' );
+
+$routes->get('/register','RegisterController::index');
+$routes->post('/register','RegisterController::register');
 
 $routes->group('admin', ['namespace' => 'App\Controllers'], function ($routes) {
+    $routes->get('dashboard', 'Home::dashboard');
     $routes->resource('barang',['controller'=>'BarangController', 'except'=>'new,edit']);
 	$routes->resource('users',['controller'=>'UsersController', 'except'=>'new,edit']);
+	$routes->resource('mutasi',['controller'=>'MutasiBarangController', 'except'=>'new,edit']);
 });
 
 /*

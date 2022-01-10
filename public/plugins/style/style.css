@@ -222,3 +222,10 @@ body {
       font-size: .75rem;
       text-transform: uppercase;
     }
+
+  .container-login{
+    width: 400px;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 200px;
+  }
