@@ -1,0 +1,175 @@
+CRITICAL - 2022-01-17 05:58:37 --> There is no primary key defined when trying to make insert.
+#0 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#3 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#4 /home/script/Project/lp3i/app-uts-review/app/Controllers/RegisterController.php(34): CodeIgniter\BaseModel->save()
+#5 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RegisterController->register()
+#6 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#10 {main}
+ERROR - 2022-01-17 05:59:08 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+CRITICAL - 2022-01-17 05:59:08 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+#0 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /home/script/Project/lp3i/app-uts-review/app/Controllers/MutasiBarangController.php(23): CodeIgniter\BaseModel->findAll()
+#5 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\MutasiBarangController->index()
+#6 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#10 {main}
+CRITICAL - 2022-01-17 06:21:25 --> There is no primary key defined when trying to make insert.
+#0 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#3 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#4 /home/script/Project/lp3i/app-uts-review/app/Controllers/RegisterController.php(34): CodeIgniter\BaseModel->save()
+#5 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RegisterController->register()
+#6 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#10 {main}
+CRITICAL - 2022-01-17 06:21:46 --> There is no primary key defined when trying to make insert.
+#0 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#3 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#4 /home/script/Project/lp3i/app-uts-review/app/Controllers/RegisterController.php(34): CodeIgniter\BaseModel->save()
+#5 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RegisterController->register()
+#6 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#10 {main}
+CRITICAL - 2022-01-17 07:01:07 --> Trying to get property 'id' of non-object
+#0 /home/script/Project/lp3i/app-uts-review/app/Controllers/MutasiBarangController.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\MutasiBarangController->create()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#6 {main}
+CRITICAL - 2022-01-17 07:02:26 --> Cannot use object of type stdClass as array
+#0 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\MutasiBarangController->create()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#5 {main}
+CRITICAL - 2022-01-17 07:03:59 --> Cannot use object of type stdClass as array
+#0 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\MutasiBarangController->create()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#5 {main}
+CRITICAL - 2022-01-17 07:08:09 --> Cannot use object of type stdClass as array
+#0 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\MutasiBarangController->create()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#5 {main}
+ERROR - 2022-01-17 07:08:46 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2022-01-17 07:08:46 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /home/script/Project/lp3i/app-uts-review/app/Controllers/MutasiBarangController.php(37): CodeIgniter\BaseModel->findAll()
+#5 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\MutasiBarangController->create()
+#6 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#10 {main}
+ERROR - 2022-01-17 07:14:03 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-01-17 07:14:03 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /home/script/Project/lp3i/app-uts-review/app/Controllers/MutasiBarangController.php(47): CodeIgniter\BaseModel->save()
+#9 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\MutasiBarangController->create()
+#10 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#11 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#13 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#14 {main}
+ERROR - 2022-01-17 07:15:04 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-01-17 07:15:04 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /home/script/Project/lp3i/app-uts-review/app/Controllers/MutasiBarangController.php(48): CodeIgniter\BaseModel->save()
+#9 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\MutasiBarangController->create()
+#10 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#11 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#12 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#13 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#14 {main}
+ERROR - 2022-01-17 07:18:08 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-01-17 07:18:08 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /home/script/Project/lp3i/app-uts-review/app/Controllers/MutasiBarangController.php(48): CodeIgniter\Model->insert()
+#8 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\MutasiBarangController->create()
+#9 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#12 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#13 {main}
+ERROR - 2022-01-17 07:18:32 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-01-17 07:18:32 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /home/script/Project/lp3i/app-uts-review/app/Controllers/MutasiBarangController.php(50): CodeIgniter\Model->insert()
+#8 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\MutasiBarangController->create()
+#9 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#12 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#13 {main}
+ERROR - 2022-01-17 07:18:57 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2022-01-17 07:18:57 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /home/script/Project/lp3i/app-uts-review/app/Controllers/MutasiBarangController.php(50): CodeIgniter\Model->insert()
+#8 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\MutasiBarangController->create()
+#9 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/script/Project/lp3i/app-uts-review/public/index.php(38): CodeIgniter\CodeIgniter->run()
+#12 /home/script/Project/lp3i/app-uts-review/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/home/script/Pr...')
+#13 {main}
